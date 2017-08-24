@@ -1,0 +1,16 @@
+{
+  "name": "node_static_webserver",
+  "version": "1.0.0",
+  "description": "static web server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Fulton",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "nodemon": "^1.11.0"
+  }
+}
